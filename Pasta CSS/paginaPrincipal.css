@@ -1,0 +1,14 @@
+.cabecario {
+    background-color: #2E948A;
+    width: 1440px;
+    height: 117px;
+}
+
+.img {
+    position: absolute;
+    width: 69px;
+    height: 71px;
+    left: 82px;
+    top: 20px;
+}
+
