@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Ubuntu', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#post {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+#post h3 {
+    font-weight: 500;
+    font-size: 1.5em;
+    color: #FF4081;
+    margin: 3em auto 0 auto;
+}
+
+#post h6 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.6rem;
+    color: #9D9D9D;
+    margin-top: 0.2rem;
+}
+
+#foto_post {
+    width: 516px;
+    height: 232px;
+    margin: 2.5rem 0 1rem;
+    background: #C4C4C4;
+}
+
+#container {
+    width: 516px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.6rem;
+
+}
+
+#container div p {
+    color: #000000;
+    margin-top: 1rem;
+}
+
+#container div h3 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #419488;
+    margin-top: 2rem;
+}
+
+#cursos {
+    background: #F7F7F7;
+    width: 100vw;
+    margin-top: 100px;
+}
+
+#title_cursos h3{
+    font-weight: 500;
+    font-size: 1.8em;
+    color: #FF4081;
+    margin: 1.5em auto;
+   text-align: center;
+}
+
+#cards {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    max-width: 70%;
+    margin: 0 auto 3rem;
+}
+
+img {
+    max-height: 30vh;
+}
+
+#cards h5 {
+    font-size: 0.9rem;
+    line-height: 3rem;
+    color: #FF4081;
+}
+
+#cards div p {
+    font-weight: 300;
+    font-size: 0.6rem;
+    width: 60%;
+    margin: 0 auto;
+    color: #000000;
+    margin-bottom: 1.5rem;
+    
+}
+
+button {
+    color: #FFFFFF;
+    background: #FF4081;
+    font-weight: 400;
+    font-size: 0.7rem;
+    padding: 0.6rem 1.5rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+button:hover {
+    background: #ce3568;
+}
