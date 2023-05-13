@@ -148,25 +148,6 @@ footer {
     align-items: center;
 }
 
-#elements-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    gap: 0.7rem
-} 
-
-#logo-footer-two {
-    margin-top: 0.7rem;
-}
-
-#p-footer {
-    position: absolute;
-    color: #FFFFFF;
-    font-size: 0.7rem;
-    font-weight: 100;
-    margin: 2.7rem 0.5rem 0 0;
-}
-
 .links-footer li{
     padding: 0 0 0.2rem 0;
     list-style-type: none;
