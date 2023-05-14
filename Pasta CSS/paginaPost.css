@@ -1,190 +1,267 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
-    font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 main {
-    max-width: 60vw;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  max-width: 70vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #post {
-    width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
 }
 
 #post h3 {
-    font-weight: 500;
-    font-size: 1.5em;
-    color: #FF4081;
-    margin: 3em auto 0 auto;
+  font-weight: 500;
+  font-size: 1.5em;
+  color: #ff4081;
+  margin: 3em auto 0 auto;
 }
 
 #post h6 {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 0.6rem;
-    color: #9D9D9D;
-    margin-top: 0.2rem;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.6rem;
+  color: #9d9d9d;
+  margin-top: 0.2rem;
 }
 
 #foto_post {
-    width: 100%;
-    height: 232px;
-    margin: 2.5rem 0 1rem;
-    background: #C4C4C4;
+  width: 100%;
+  height: 232px;
+  margin: 2.5rem 0 1rem;
+  background: #c4c4c4;
 }
 
 #container {
-    width: 80%;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 0.6rem;
-
+  width: 80%;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.6rem;
 }
 
 #container div p {
-    color: #000000;
-    margin-top: 1rem;
+  color: #000000;
+  margin-top: 1rem;
 }
 
 #container div h3 {
-    font-size: 0.9rem;
-    font-weight: 600;
-    color: #419488;
-    margin-top: 2rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #419488;
+  margin-top: 2rem;
 }
 
 #cursos {
-    background: #F7F7F7;
-    width: 100vw;
-    margin-top: 100px;
+  background: #f7f7f7;
+  width: 100vw;
+  margin-top: 4rem;
 }
 
-#title_cursos h3{
-    font-weight: 500;
-    font-size: 1.8em;
-    color: #FF4081;
-    margin: 1.5em auto;
-   text-align: center;
+#title_cursos h3 {
+  font-weight: 500;
+  font-size: 1.8em;
+  color: #ff4081;
+  margin: 1.5em auto;
+  text-align: center;
 }
 
 #cursos #cards {
-    width: 60%;
-} 
-
-#cards {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    gap: 1rem;
-    max-width: 70%;
-    margin: 0 auto 3rem;
+  width: 60%;
 }
 
-img {
-    max-height: 30vh;
+#cards {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 1rem;
+  max-width: 70%;
+  margin: 0 auto 3rem;
 }
 
 #cards h5 {
-    font-size: 0.9rem;
-    line-height: 3rem;
-    color: #FF4081;
+  font-size: 0.9rem;
+  line-height: 3rem;
+  color: #ff4081;
 }
 
 #cards div p {
-    font-weight: 300;
-    font-size: 0.6rem;
-    width: 60%;
-    margin: 0 auto;
-    color: #000000;
-    margin-bottom: 1.5rem;
-    
+  font-weight: 300;
+  font-size: 0.6rem;
+  width: 60%;
+  margin: 0 auto;
+  color: #000000;
+  margin-bottom: 1.5rem;
 }
 
 .button-cursos {
-    color: #FFFFFF;
-    background: #FF4081;
-    font-weight: 400;
-    font-size: 0.7rem;
-    padding: 0.6rem 1.5rem;
-    border-radius: 1rem;
-    border: none;
-    cursor: pointer;
-    transition: 300ms;
+  color: #ffffff;
+  background: #ff4081;
+  font-weight: 400;
+  font-size: 0.7rem;
+  padding: 0.6rem 1.5rem;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: 300ms;
 }
 
 .button-cursos:hover {
-    background: #bb2054;
+  background: #bb2054;
 }
 
 footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    position: relative;
-    width: 100vw;
-    bottom: 0%;
-    height: 8rem;
-    background: #419488;
-    
-    }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  width: 100vw;
+  bottom: 0%;
+  height: 8rem;
+  background: #419488;
+}
 
 #container-footer {
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.links-footer li{
-    padding: 0 0 0.2rem 0;
-    list-style-type: none;
-    cursor: pointer;
+.links-footer li {
+  padding: 0 0 0.2rem 0;
+  list-style-type: none;
+  cursor: pointer;
 }
 
-.links-footer a{
-    text-decoration: none;
-    font-size: 0.9rem;
-    color: #FFFFFF;
-    transition: 300ms;
+.links-footer a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #ffffff;
+  transition: 300ms;
 }
 
-.links-footer a:hover{
-    text-decoration: underline;
+.links-footer a:hover {
+  text-decoration: underline;
 }
 
 .button-footer {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    width: 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 10rem;
 }
 
 .button-footer button {
-    color: #FFFFFF;
-    font-size: 0.7rem;
-    font-weight: 100;
-    border: 1px solid #FFFFFF;
-    background: none;
-    height: 1.7rem;
-    border-radius: 1rem;
-    cursor: pointer;
-    transition: 300ms;
+  color: #ffffff;
+  font-size: 0.7rem;
+  font-weight: 100;
+  border: 1px solid #ffffff;
+  background: none;
+  height: 1.7rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: 300ms;
 }
 
 .button-footer button:hover {
-    color: #419488;
-    background: #FFFFFF;
+  color: #419488;
+  background: #ffffff;
+}
+
+@media only screen and (max-width: 1036px) {
+  #cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  main {
+    max-width: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  main {
+    max-width: none;
+  }
+
+  #post h3 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  #title_cursos h3 {
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  #container-footer {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #container-footer img {
+    width: 150px;
+  }
+
+  .links-footer a {
+    font-size: 0.7rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #post h3 {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  #title_cursos h3 {
+    font-weight: 500;
+    font-size: 1.3rem;
+  }
+
+  #container-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #container-footer img {
+    width: 100px;
+  }
+
+  .links-footer a {
+    font-size: 0.6rem;
+    padding: 0;
+  }
+
+  .button-footer {
+    width: 6rem;
+  }
+
+  .button-footer button {
+    font-size: 0.6rem;
+  }
 }
