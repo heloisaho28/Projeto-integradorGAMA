@@ -159,18 +159,81 @@ top: 529px;
 background: #F7F7F7;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+
+
+
+
+
 footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  width: 100vw;
+  bottom: 0%;
+  height: 8rem;
+  background: #419488;
+  
+  }
 
+#container-footer {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
-position: absolute;
-left: 0%;
-right: 0%;
-top: 150%;
-bottom: 0%;
-height: 200px;
-background: #419488;
-color: #FF4081;
+.links-footer li{
+  padding: 0 0 0.2rem 0;
+  list-style-type: none;
+  cursor: pointer;
+}
 
+.links-footer a{
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #FFFFFF;
+  transition: 300ms;
+}
+
+.links-footer a:hover{
+  text-decoration: underline;
+}
+
+.button-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 10rem;
+}
+
+.button-footer button {
+  color: #FFFFFF;
+  font-size: 0.7rem;
+  font-weight: 100;
+  border: 1px solid #FFFFFF;
+  background: none;
+  height: 1.7rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.button-footer button:hover {
+  color: #419488;
+  background: #FFFFFF;
 }
 
 @media only screen and (max-width:800px) {
