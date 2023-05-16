@@ -1,0 +1,111 @@
+body {
+    background: #E5E5E5;
+    width: 100%
+    ;
+}
+
+.navbar {
+    height: 117px;
+    background-color:#419488;
+}
+
+.formulario {
+    position: absolute;
+    width: 31rem;
+    height: 26.19rem;
+    left: 8.5rem;
+    top: 13.9rem;
+    border-radius: 0.25rem;
+}
+
+h1 {
+    position: absolute;
+    left: 0%;
+    right: 68.95%;
+    top: 0%;
+    bottom: 89.02%;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    /* identical to box height */
+    color: #FF4081;
+}
+
+#nome {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0.6%;
+    right: 0%;
+    top: 21.48%;
+    bottom: 70.88%;
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 7px;
+}
+
+#email {
+    position: absolute;
+    left: 0.6%;
+    right: 0%;
+    top: 32.7%;
+    bottom: 59.67%;
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 7px;
+}
+
+#mensagem {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0.6%;
+    right: 0%;
+    top: 43.68%;
+    bottom: 10.26%;
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 7px;
+}
+
+#entrar {
+    position: absolute;
+    left: 0.6%;
+    right: 77.62%;
+    top: 93.32%;
+    bottom: -0.95%;
+    background: #FF4081;
+    color: #FFFFFF;
+    border-radius: 50px;
+    border: 0 none;
+}
+
+.ilustra-contato {
+    position: absolute;
+    width: 27.75rem;
+    height: 22.75rem;
+    left: 52.1rem;
+    top: 12.44rem;
+}
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    main {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+    .formulario, .formulario {
+        width: 80%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
+  
+
