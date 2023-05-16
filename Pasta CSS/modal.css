@@ -1,0 +1,140 @@
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } */
+  
+  dialog::backdrop {
+    background-color: rgb(0, 0, 0, 0.8);
+  }
+  
+  dialog {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding: 6rem 4rem;
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 0 0 1rem rgb(0 0 0 / .3);
+  }
+  
+  #modal-body {
+    display: flex;
+  }
+  
+  #modal-body img {
+    margin: auto;
+  }
+
+  #modal-body #itens-modal{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  #itens-modal h2 {
+    color: #FF4081;
+    font-size: 2rem;
+    text-align: left;
+    padding: .8rem;
+  }
+  #itens-modal p{
+    color: #000000;
+    font-size: 1.2rem;
+    text-align: left;
+    padding: .8rem;
+  }
+  
+  #itens-modal ol li{
+    color: #000000;
+    font-size: 1.2rem;
+    text-align: left;
+    list-style-type: none;
+    padding: .1rem .8rem;
+  }
+  
+  #button-link-aulas {
+    width: 10rem;
+    color: #000000;
+    background: #C4C4C4;
+    font-size: 1rem;
+    text-align: center;
+    padding: .8rem;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin-left: 1rem;
+    transition: 500ms;
+  }
+  
+  #button-link-aulas:hover, 
+  #close:hover,
+  #button-link-aulas:focus,
+  #closer:focus {
+    color: #ffffff;
+    background: #000000;
+  }
+
+  #close {
+    position: absolute;
+    left: 93%;
+    bottom: 85%;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000000;
+    background: none;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    height: 2.3rem;
+    width: 2.3rem;
+    cursor: pointer;
+    transition: 500ms;
+  }
+
+  @media only screen and (max-width: 1036px) {
+    dialog {
+        padding: 3rem 4rem;
+    }
+    #modal-body {
+        display: flex;
+        flex-direction: column; 
+    }
+    #modal-body img {
+    margin: auto;
+    width: 125px;
+    height: 125px;
+    }
+    #modal-body #itens-modal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #itens-modal h2 {
+        font-size: 1.2rem;
+        text-align: center;
+        margin-top: .4rem;
+    }
+    #itens-modal p {
+        font-size: 0.9rem;
+        padding: .3rem;
+    }
+    #close {
+        left: 80%;
+        bottom: 90%;
+    }
+    #itens-modal ol li {
+        font-size: 0.9rem;
+        padding: .1rem .8rem;
+        margin: .2rem 0;
+    }
+    #button-link-aulas {
+        width: 8rem;
+        font-size: 0.8rem;
+        padding: .5rem;
+        margin: 0.3rem 0 0.8rem;
+    }
+}
