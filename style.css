@@ -5,7 +5,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-  width: 100%px;
+  width: 100%;
  
 
  
@@ -160,14 +160,32 @@ background: #F7F7F7;
 }
 
 footer {
-  width: 100%;
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background:#419488;
-  height: 150px;
-  color: #ffffff;
-  top: 1200px;
-  position: absolute;
+
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 150%;
+bottom: 0%;
+height: 200px;
+background: #419488;
+color: #FF4081;
+
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
 }
