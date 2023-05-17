@@ -89,6 +89,7 @@ section {
 #post h3 { 
   font-size: 1.7em;
   font-weight: 700;
+  text-transform: uppercase;
   color: #419488;
   margin: auto 0 1.5rem;
 }
