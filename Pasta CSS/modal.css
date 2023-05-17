@@ -67,10 +67,11 @@
     border: none;
     border-radius: 2rem;
     cursor: pointer;
+    text-decoration: none;
     margin-left: 1rem;
     transition: 500ms;
   }
-  
+
   #button-link-aulas:hover, 
   #close:hover,
   #button-link-aulas:focus,
