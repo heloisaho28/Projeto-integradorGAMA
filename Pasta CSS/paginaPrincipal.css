@@ -1,56 +1,23 @@
 .navbar {
-	
-	height: 90px;
+
 	background-color:#419488;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-  width: 100%;
- 
+  width: auto;
+  padding: 0.6rem 3rem;
+
 
  
   
   
 }
 body {
-  background-color: rgb(255, 253, 249);
+  overflow-x: hidden;
 }
 
-h1{
-  color: #fc5203;
-}
 
-.cor1{
-  background-color: #fc5203;
-}
 
-.efeito:hover{
-  cursor:  pointer;
-  transition: all ease 0.2s;
-  transform: scale(0.9);
-  width: 100%;
-}
-.details{
-      display: flex;
-      flex-direction: column;
-      color: #fc5203;
-      
-      
-}
-.wrap{
-          text-align: center;
-          margin: 20px;
-          font-size: 25px;
-          font-weight: normal;
-          background-size: 90%;
-           background-attachment: fixed;
-           padding: 10px 10px;
-           height:80px;
-           width:90%;
-      
-      
-      }
-     
 
 
   
@@ -124,29 +91,75 @@ color: #FF4081;
   }
 
   
-  
+  main {
+    max-width: 70vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
  
+  #cursos {
+    background: #f7f7f7;
+    width: 100vw;
+    margin-top: 4rem;
+  }
+  
+  #title_cursos h3 {
+    font-weight: 500;
+    font-size: 1.8em;
+    color: #ff4081;
+    margin: 1.5em auto;
+    text-align: center;
+  }
+  
+  #cursos #cards {
+    width: 60%;
+  }
+  
+  #cards {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 1rem;
+    max-width: 70%;
+    margin: 0 auto 3rem;
+  }
+  
+  #cards h5 {
+    font-size: 0.9rem;
+    line-height: 3rem;
+    color: #ff4081;
+  }
+  
+  #cards div p {
+    font-weight: 300;
+    font-size: 0.6rem;
+    width: 60%;
+    margin: 0 auto;
+    color: #000000;
+    margin-bottom: 1.5rem;
+  }
+  
+  .button-cursos {
+    color: #ffffff;
+    background: #ff4081;
+    font-weight: 400;
+    font-size: 0.7rem;
+    padding: 0.6rem 1.5rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: 300ms;
+  }
+  
+  .button-cursos:hover {
+    background: #bb2054;
+  }
   
   
-  
 
-
-
-.imagem{
-  display: flex;
-  border-top: none;
-  padding-top: 0;
-}
-
-.im{
- flex: 1; /*distribui as 3 divs dentro do conteiner com larguras iguais*/
- margin: 1px; /*coloca uma margem entre elas*/
- text-align: center;
-}
-
-.im img{
- max-width: 45%;
-}
 
 div.bg-cursos{
 
@@ -250,7 +263,7 @@ footer {
 }
 
 .button-footer button:hover {
-  color: #419488;
+  color: #946641;
   background: #ffffff;
 }
 
@@ -269,13 +282,9 @@ footer {
   }
 }
 
-@media only screen and (max-width: 768px) {
-  main {
-    max-width: none;
-  }
-
+@media only screen and (max-width: 480px) {
   #logo-header img {
-    width: 8rem;
+    width: 5rem;
   }
 
   #navebar ul {
@@ -284,30 +293,6 @@ footer {
   }
 
   #navebar a {
-    font-size: 0.8rem;
-  }
-
-  #post h3 {
-    font-size: 1.3rem;
-    text-align: center;
-  }
-
-  #title_cursos h3 {
-    font-weight: 500;
-    font-size: 1.5rem;
-  }
-
-  #container-footer {
-    display: flex;
-    justify-content: space-around;
-  }
-
-  #container-footer img {
-    width: 150px;
-  }
-
-  .links-footer a {
-    font-size: 0.7rem;
-    padding: 0;
+    font-size: 0.6rem;
   }
 }
