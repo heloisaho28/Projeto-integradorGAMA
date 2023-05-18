@@ -163,7 +163,7 @@ color: #FF4081;
 
 div.bg-cursos{
 
-position: absolute;
+position: fixed;
 width: 100%;
 height: 400px;
 left: 0px;
@@ -179,6 +179,60 @@ background: #F7F7F7;
 
   font-family: 'Ubuntu', sans-serif;
 }
+
+.sobrenos{
+
+position: absolute;
+width: 478px;
+height: 50px;
+left: 128px;
+top: 1678px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 37px;
+line-height: 50px;
+
+color: #009688;
+
+
+}
+ .bg-blog{
+
+position: absolute;
+width: 1440px;
+height: 730px;
+left: 0px;
+top: 2260px;
+
+background: #F7F7F7;
+
+ }
+
+ .image-m{
+
+position: absolute;
+width: 84px;
+height: 68px;
+left: 139px;
+top: 1818px;
+
+background: url(image);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -243,32 +297,68 @@ footer {
   background: #ffffff;
 }
 
-@media only screen and (max-width: 1036px) {
-  #cards {
+@media only screen and (max-width: 680px) {
+ 
+
+  #post h3 {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  #title_cursos h3 {
+    font-weight: 500;
+    font-size: 1.3rem;
+  }
+
+  #container-footer {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
+    justify-content: space-between;
+  }
+
+  #container-footer img {
+    width: 100px;
+  }
+
+  .links-footer a {
+    font-size: 0.6rem;
+    padding: 0;
+  }
+
+  .button-footer {
+    width: 6rem;
+  }
+
+  .button-footer button {
+    font-size: 0.6rem;
   }
 }
 
-@media only screen and (max-width: 820px) {
-  main {
-    max-width: none;
-  }
-}
+@media only screen and (max-width: 280px) {
+ 
 
-@media only screen and (max-width: 480px) {
-  #logo-header img {
+  footer {
+    height: 7rem;
+  }
+
+  #container-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #container-footer img {
+    width: 80px;
+  }
+
+  .links-footer li {
+    font-size: 0.5rem;
+    padding: 0.3rem;
+  }
+
+  .button-footer {
     width: 5rem;
   }
 
-  #navebar ul {
-    gap: 1.5rem;
-    margin-right: 3rem;
-  }
-
-  #navebar a {
-    font-size: 0.6rem;
+  .button-footer button {
+    font-size: 0.5rem;
   }
 }
