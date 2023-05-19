@@ -139,7 +139,7 @@ background: #c4c4c4;
   text-align: center;
   justify-content: center;
   gap: 1rem;
-  max-width: 70%;
+  max-width: 20%;
   margin: 0 auto 3rem;
 }
 
@@ -166,7 +166,7 @@ background: #c4c4c4;
   padding: 3rem 1rem;
 } */
 #container {
-  width: 65%;
+  width: 55%;
 }
 
 #post {
