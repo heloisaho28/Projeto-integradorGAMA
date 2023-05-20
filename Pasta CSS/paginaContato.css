@@ -1,17 +1,135 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-    font-family: 'Ubuntu', sans-serif;
+body {
+  position: relative;
+  width: 90rem;
+  height: 59.31rem;
+  padding: 0;
+  margin: 0;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
 }
 
+header {
+  width: 90rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #419488;
+  height: 7.31rem;
+  
+}
 
+#logo-header {
+  margin-left: 6rem;
+}
 
+#navebar {
+  position: absolute;
+  left: 63.25rem;
+  top: 2.19rem;
+}
 
+#navebar ul {
+  display: flex;
+  position: absolute;
+  left: -6rem;
+  gap: 2rem;
+  list-style-type: none;
+}
 
+#navebar a {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 500ms;
+}
 
+#navebar a:hover {
+  font-size: 1rem;
+}
 
+.formulario {
+    position: absolute;
+    width: 31rem;
+    height: 24.19rem;
+    left: 8.5rem;
+    top: 12.9rem;
+    border-radius: 0.25rem;
+}
+
+h1 {
+    position: absolute;
+    left: 2%;
+    right: 68.95%;
+    top: -5%;
+    bottom: 89.02%;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 2.88rem;
+    /* identical to box height */
+    color: #FF4081;
+}
+
+#nome {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0.6%;
+    right: 0%;
+    top: 21.48%;
+    bottom: 70.88%;
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 7px;
+}
+
+#email {
+    position: absolute;
+    left: 0.6%;
+    right: 0%;
+    top: 32.7%;
+    bottom: 59.67%;
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 7px;
+}
+
+#mensagem {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0.6%;
+    right: 0%;
+    top: 43.68%;
+    bottom: 10.26%;
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 7px;
+}
+
+#entrar {
+    position: absolute;
+    left: 0.6%;
+    right: 77.62%;
+    top: 93.32%;
+    bottom: -0.95%;
+    background: #FF4081;
+    color: #FFFFFF;
+    border-radius: 50px;
+    border: 0 none;
+}
+
+#entrar:hover {
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.ilustra-contato img {
+    position: absolute;
+    left: 52.06rem;
+    top: 11rem;
+}
 
 footer {
     display: flex;
@@ -19,58 +137,118 @@ footer {
     justify-content: space-around;
     align-items: center;
     position: absolute;
-    width: 100vw;
+    width: 90rem;
     bottom: 0%;
-    height: 8rem;
+    height: 12.94rem;
     background: #419488;
-    
-    }
-
+  }
+  
 #container-footer {
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
-
-.links-footer li{
+  
+.links-footer li {
     padding: 0 0 0.2rem 0;
     list-style-type: none;
     cursor: pointer;
 }
-
-.links-footer a{
+  
+.links-footer a {
     text-decoration: none;
     font-size: 0.9rem;
-    color: #FFFFFF;
+    color: #ffffff;
     transition: 300ms;
 }
-
-.links-footer a:hover{
+  
+.links-footer a:hover {
     text-decoration: underline;
 }
-
+  
 .button-footer {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
     width: 10rem;
+    margin: 2.5rem;
 }
-
+  
 .button-footer button {
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 0.7rem;
     font-weight: 100;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #ffffff;
     background: none;
     height: 1.7rem;
     border-radius: 1rem;
     cursor: pointer;
     transition: 300ms;
 }
-
-.button-footer button:hover {
+  
+  .button-footer button:hover {
     color: #419488;
-    background: #FFFFFF;
+    background: #ffffff;
+  } 
+@media screen and (max-width: 1280px) {
+  #logo-header {
+    margin: 3rem;
+  }
+  #navebar {
+    left: 51rem;
+  }
+  .formulario {
+    left: 2rem;
+  }
+  .ilustra-contato img{
+    left: 38rem;
+  }
+  footer {
+    width: 85%;
+  }
+  #container-footer{
+    position: absolute;
+    left: -5rem;
+  }
+}
+@media screen and (max-width: 1026px) {
+  #logo-header {
+    margin: 3rem;
+  }
+  #navebar {
+    left: 51rem;
+  }
+  .formulario {
+    left: 2rem; 
+  }
+  .ilustra-contato img {
+    left: 37rem;
+    top: 11rem;
+  }
+  #container-footer {
+    position: absolute;
+    left: -10rem;
+    top: 2rem;
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  #navebar {
+    left: 40rem;
+  }
+  #navebar a {
+    font-size: 2rem;
+  }
+  #container-footer {
+    position: absolute;
+    left: -4rem;
+  }
+  .links-footer a {
+    font-size: 1.5rem;
+  }
+  .button-footer {
+    font-size: 0.9rem;
+  }
 }

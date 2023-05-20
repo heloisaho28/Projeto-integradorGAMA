@@ -1,4 +1,11 @@
+
+ .navbar {
+	
+	height: 90px;
+
+}
 .navbar {
+
 
 	background-color:#419488;
 	display: flex;
