@@ -1,0 +1,111 @@
+body {
+    box-sizing: border-box;
+    position: relative;
+    width: 1440px;
+    height: 3197px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+.cabecario {
+    position: absolute;
+    width: 1440px;
+    height: 117px;
+    left: 0px;
+    top: 0px;
+    background: #2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+.logo {
+    position: absolute;
+    width: 244px;
+    height: 77px;
+    left: 82px;
+    top: 20px;
+}
+
+.img {
+    position: absolute;
+    width: 69px;
+    height: 71px;
+    left: 82px;
+    top: 20px;
+}
+
+.dindin {
+    position: absolute;
+    width: 164px;
+    height: 64px;
+    left: 162px;
+    top: 33px;
+    font-family: "Ubuntu";
+    font-size: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 64px;
+    color: #FFFFFF;
+}
+
+.menu {
+    position: absolute;
+    width: 309px;
+    height: 23px;
+    left: 1028px;
+    top: 47px;
+}
+.linkCursos {
+    position: absolute;
+    width: 80px;
+    height: 23px;
+    left: 1028px;
+    top: 47px;
+    
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    text-transform: uppercase;
+    
+    color: #FDFDFD;
+}
+
+.linkBlog {
+    position: absolute;
+    width: 55px;
+    height: 23px;
+    left: 1150px;
+    top: 47px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #FDFDFD;
+}
+
+.linkContato {
+    position: absolute;
+    width: 95px;
+    height: 23px;
+    left: 1242px;
+    top: 47px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #FDFDFD;
+    }
