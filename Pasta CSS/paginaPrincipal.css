@@ -68,11 +68,11 @@ body {
 }
 
 #container {
-  width: 65%;
+  width: 50%;
 }
 
 #postt {
-width: 80%;
+width: 100%;
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -178,46 +178,12 @@ background: #c4c4c4;
   width: 60%;
 }
 
-#cards {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  gap: 1rem;
-  max-width: 20%;
-  margin: 0 auto 3rem;
-}
-
-#cards h5 {
-  font-size: 0.9rem;
-  line-height: 3rem;
-  color: #ff4081;
-}
-
-#cards div p {
-  font-weight: 300;
-  font-size: 0.6rem;
-  width: 60%;
-  margin: 0 auto;
-  color: #000000;
-  margin-bottom: 1.5rem;
-}
-
-.blog-post {
-  display: flex;
-  gap: 22rem;
-}
-
-#container-post {
-  width: 5%;
-}
-
 section {
   display: flex;
-  justify-content: center;
+  justify-content:normal;
   background: #f7f7f7;
   width: 10vw;
-  padding: 1rem 19rem;
+  padding: 1rem 9rem;
 }
 
 
@@ -258,6 +224,23 @@ height: 200px;
 margin: 1rem 0 1rem;
 background: #c4c4c4;
 }
+.button-post {
+  color: #ff4081;
+  background: #f5f3f4;
+  font-weight: 400;
+  font-size: 0.7rem;
+  padding: 0.6rem 1.5rem;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+  
+  transition: 300ms;
+}
+
+.button-post:hover {
+  background: #eeeded;
+}
+
 
 #container div h3 {
 font-size: 1.5rem;
