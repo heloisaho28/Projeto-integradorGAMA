@@ -24,26 +24,12 @@ body {
 }
 
 
-.sobrenos {
-     
-      justify-content: center;
-      gap: 2rem;
-  }
-
   #sobrenos {
-    width: 60%;
-    display: flex;
-    flex-direction: row;
+    margin-left: 2.5rem;
   
-    padding: 2rem;
-    justify-content: space-around;
     flex-wrap: wrap;
-    margin-bottom: 2rem;
   }
   
-  #sobrenos div {
-      width: 60%;
-  }
   
   #sobrenos h3 { 
     font-size: 1.7em;
