@@ -126,12 +126,14 @@ background: #c4c4c4;
 }
 
 #title_cursos h3 {
-  font-weight: 500;
-  font-size: 1.8em;
-  color: #ff4081;
-  margin: 1.5em auto;
-  text-align: center;
-}
+    font-size: 1.7em;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #419488;
+   margin-left: -5.5rem;
+  
+   
+    }
 
 .button-cursos {
   color: #ffffff;
