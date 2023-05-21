@@ -83,7 +83,8 @@ main {
   color: #ff4081;
 }
 
-.item-texto a {
+.item-texto button {
+  font-size: 0.9em;
   background-color: #2e948a;
   border-radius: 3.8rem;
   text-align: center;
@@ -91,6 +92,16 @@ main {
   width: 40%;
   color: #fff;
   font-weight: 500;
+  border: none;
+  cursor: pointer;
+  transition: 500ms;
+}
+
+.item-texto button:hover {
+  color: #2e948a;
+  background: none;
+  border: 0.1em solid #2e948a;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.4);
 }
 
 .container-texto h1 {
