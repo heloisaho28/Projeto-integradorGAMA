@@ -1,111 +1,662 @@
+
+ .navbar {
+	
+	height: 90px;
+
+}
+.navbar {
+  
+
+
+	background-color:#419488;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+  width: auto;
+  padding: 0.8rem ;
+
+
+ 
+ 
+  
+}
 body {
-    box-sizing: border-box;
-    position: relative;
-    width: 1440px;
-    height: 3197px;
-    background: #FFFFFF;
-    border: 1px solid #000000;
-}
-.cabecario {
-    position: absolute;
-    width: 1440px;
-    height: 117px;
-    left: 0px;
-    top: 0px;
-    background: #2E948A;
-    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+  overflow-x: hidden;
 }
 
-.logo {
-    position: absolute;
-    width: 244px;
-    height: 77px;
-    left: 82px;
-    top: 20px;
-}
 
-.img {
-    position: absolute;
-    width: 69px;
-    height: 71px;
-    left: 82px;
-    top: 20px;
-}
-
-.dindin {
-    position: absolute;
-    width: 164px;
-    height: 64px;
-    left: 162px;
-    top: 33px;
-    font-family: "Ubuntu";
-    font-size: normal;
-    font-weight: 500;
-    font-size: 56px;
-    line-height: 64px;
-    color: #FFFFFF;
-}
-
-.menu {
-    position: absolute;
-    width: 309px;
-    height: 23px;
-    left: 1028px;
-    top: 47px;
-}
-.linkCursos {
-    position: absolute;
-    width: 80px;
-    height: 23px;
-    left: 1028px;
-    top: 47px;
-    
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 23px;
-    /* identical to box height */
-    
+  #sobrenos {
+    margin-left: 2.5rem;
+  
+    flex-wrap: wrap;
+  }
+  
+  
+  #sobrenos h3 { 
+    font-size: 1.7em;
+    font-weight: 900;
     text-transform: uppercase;
-    
-    color: #FDFDFD;
+    color: #419488;
+    margin: auto 0 1.5rem;
+  }
+  
+
+.blog-postt {
+  display: flex;
+  gap: 2rem;
 }
 
-.linkBlog {
-    position: absolute;
-    width: 55px;
-    height: 23px;
-    left: 1150px;
-    top: 47px;
-
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 23px;
-    /* identical to box height */
-
-    text-transform: uppercase;
-
-    color: #FDFDFD;
+#container {
+  width: 50%;
 }
 
-.linkContato {
-    position: absolute;
-    width: 95px;
-    height: 23px;
-    left: 1242px;
-    top: 47px;
+#postt {
+width: 100%;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 2rem;
+justify-content: space-around;
+flex-wrap: wrap;
+margin-bottom: 2rem;
+}
 
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 23px;
-    /* identical to box height */
+#postt div {
+  width: 40%;
+}
 
+#postt h2 { 
+font-size: 1.7em;
+font-weight: 700;
+text-transform: uppercase;
+color: #FF4081;
+
+margin: auto 0 1.5rem;
+}
+
+#postt h4 {
+font-style: normal;
+font-weight: 300;
+font-size: 1.2rem;
+color: #000000;
+margin-top: 0.2rem;
+}
+
+.button-postt {
+  color: #ffffff;
+  background: #ff4081;
+  font-weight: 400;
+  font-size: 0.7rem;
+  padding: 0.6rem 1.5rem;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.button-postt:hover {
+  background: #bb2054;
+}
+
+.foto_postt {
+width: 100%;
+
+margin: 1rem 0 1rem;
+background: #c4c4c4;
+}
+
+
+ 
+#container {
+  width: 80%;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.6rem;
+}
+
+#container div p {
+  color: #000000;
+  margin-top: 1rem;
+}
+
+
+#cursos {
+  background: #f7f7f7;
+  width: 100vw;
+  margin-top: 4rem;
+}
+
+#title_cursos h3 {
+    font-size: 1.7em;
+    font-weight: 900;
     text-transform: uppercase;
-
-    color: #FDFDFD;
+    color: #419488;
+   margin-left: -4.5rem;
+  
+   
     }
+
+.button-cursos {
+  color: #ffffff;
+  background: #ff4081;
+  font-weight: 400;
+  font-size: 0.7rem;
+  padding: 0.6rem 1.5rem;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.button-cursos:hover {
+  background: #bb2054;
+}
+
+
+.links-cursos a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #ffffff;
+  transition: 300ms;
+}
+
+.links-cursos a:hover {
+  text-decoration: underline;
+}
+
+
+
+#cursos #cards {
+  width: 50%;
+}
+
+section {
+  display: flex;
+  justify-content:normal;
+  background: #f7f7f7;
+  width: 100vw;
+  padding: 1rem 9rem;
+}
+
+
+#post {
+width: 80%;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 2rem;
+justify-content: space-around;
+flex-wrap: wrap;
+margin-bottom: 2rem;
+}
+
+#post div {
+  width: 40%;
+}
+
+#post h3 { 
+font-size: 1.7em;
+font-weight: 700;
+text-transform: uppercase;
+color: #419488;
+margin: auto 0 1.5rem;
+}
+
+#post p {
+font-style: normal;
+font-weight: 300;
+font-size: 0.8rem;
+color: #000000;
+margin-top: 0.2rem;
+}
+
+.foto_post img {
+width: 400%;
+height: 200px;
+margin: 1rem 0 1rem;
+background: #f5f3f4;
+}
+.button-post {
+  color: #ff4081;
+  background: #f5f3f4;
+  font-weight: 400;
+  font-size: 0.7rem;
+  padding: 0.6rem 1.5rem;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+  
+  transition: 300ms;
+}
+
+.button-post:hover {
+  background: #eeeded;
+}
+
+
+#container div h3 {
+font-size: 1.5rem;
+font-weight: 500;
+color: #ff4081;
+
+}
+
+#container div p {
+  color: #000000;
+  margin-top: 1rem;
+  font-weight: 300;
+  font-size: 0.7rem;
+  max-width: 25rem;
+  margin-bottom: 4rem;
+}
+
+
+.flip-card {
+
+  background-color: transparent;
+  width: 200px;
+  height: 205px;
+ 
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1.0s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+
+/* Style the back side */
+.flip-card-back {
+  background-color: #f5f3f4;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+
+
+
+
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  width: 100vw;
+  bottom: 0%;
+  height: 8rem;
+  background: #419488;
+}
+
+#container-footer {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.links-footer li {
+  padding: 0 0 0.2rem 0;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.links-footer a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #ffffff;
+  transition: 300ms;
+}
+
+.links-footer a:hover {
+  text-decoration: underline;
+}
+
+.button-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 10rem;
+}
+
+.button-footer button {
+  color: #ffffff;
+  font-size: 0.7rem;
+  font-weight: 100;
+  border: 1px solid #ffffff;
+  background: none;
+  height: 1.7rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.button-footer button:hover {
+  color: #419488;
+  background: #ffffff;
+}
+
+@media only screen and (max-width: 1036px) {
+  #cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  main {
+    max-width: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  main {
+    max-width: none;
+  }
+
+  #logo-header img {
+    width: 8rem;
+  }
+
+  #navebar ul {
+    gap: 1.5rem;
+    margin-right: 3rem;
+  }
+
+  #navebar a {
+    font-size: 0.8rem;
+  }
+
+  #post h3 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+   #postt h3 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  #title_cursos h3 {
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  #container-footer {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #container-footer img {
+    width: 150px;
+  }
+
+  .links-footer a {
+    font-size: 0.7rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  
+
+  #post h3 {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+ #postt h3 {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  #title_cursos h3 {
+    font-weight: 500;
+    font-size: 1.3rem;
+  }
+
+  #container-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #container-footer img {
+    width: 100px;
+  }
+
+  .links-footer a {
+    font-size: 0.6rem;
+    padding: 0;
+  }
+
+  .button-footer {
+    width: 6rem;
+  }
+
+  .button-footer button {
+    font-size: 0.6rem;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+ 
+
+  footer {
+    height: 7rem;
+  }
+
+  #container-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #container-footer img {
+    width: 80px;
+  }
+
+  .links-footer li {
+    font-size: 0.5rem;
+    padding: 0.3rem;
+  }
+
+  .button-footer {
+    width: 5rem;
+  }
+
+  .button-footer button {
+    font-size: 0.5rem;
+  }
+}
+
+
+ @media only screen and (max-width: 540px) {
+  
+    #post div {
+      width: 100%;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+  
+    #post {
+      margin: 0;
+    }
+    #post h3 {
+      font-size: 1.1rem;
+      text-align: center;
+    }
+  
+    .blog-post {
+      display: block;
+    }
+      #post div {
+      width: 100%;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+  
+    #postt {
+      margin: 0;
+    }
+    #postt h3 {
+      font-size: 1.1rem;
+      text-align: center;
+    }
+  
+    .blog-postt {
+      display: block;
+    }
+     #postt div {
+      width: 100%;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+  
+  
+    #container-footer {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    #container-footer img {
+      width: 100px;
+    }
+  
+    .links-footer a {
+      font-size: 0.6rem;
+      padding: 0;
+    }
+  
+    .button-footer {
+      width: 6rem;
+    }
+  
+    .button-footer button {
+      font-size: 0.6rem;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+   
+  
+    #post div {
+      width: 100%;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+  
+    #post {
+      margin: 0;
+    }
+    #post h3 {
+      font-size: 1.1rem;
+      text-align: center;
+    }
+  
+    .blog-post {
+      display: block;
+    }
+
+       #post div {
+      width: 100%;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+  
+    #postt {
+      margin: 0;
+    }
+    #postt h3 {
+      font-size: 1.1rem;
+      text-align: center;
+    }
+  
+    .blog-postt {
+      display: block;
+    }
+  
+    #container-footer {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    #container-footer img {
+      width: 100px;
+    }
+  
+    .links-footer a {
+      font-size: 0.6rem;
+      padding: 0;
+    }
+  
+    .button-footer {
+      width: 6rem;
+    }
+  
+    .button-footer button {
+      font-size: 0.6rem;
+    }
+  }
+  
+  @media only screen and (max-width: 280px) {
+  
+    #post img {
+      width: 90%;
+      height: 90%;
+    }
+   #postt img {
+      width: 90%;
+      height: 90%;
+    }
+  
+    section {
+      padding: 0;
+    }
+  
+    footer {
+      height: 7rem;
+    }
+  
+    #container-footer {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    #container-footer img {
+      width: 80px;
+    }
+  
+    .links-footer li {
+      font-size: 0.5rem;
+      padding: 0.3rem;
+    }
+  
+    .button-footer {
+      width: 5rem;
+    }
+  
+    .button-footer button {
+      font-size: 0.5rem;
+    }
+  }
