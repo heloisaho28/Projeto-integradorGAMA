@@ -196,7 +196,7 @@ footer {
     margin: 3rem;
   }
   #navebar {
-    left: 51rem;
+    left: 49rem;
   }
   .formulario {
     left: 2rem;
@@ -204,12 +204,11 @@ footer {
   .ilustra-contato img{
     left: 38rem;
   }
-  footer {
-    width: 80rem;
-  }
   #container-footer{
+    display: flex;
+    justify-content: space-evenly;
     position: absolute;
-    left: -5rem;
+    left: -11rem;
   }
 }
 @media screen and (max-width: 1026px) {
@@ -217,7 +216,7 @@ footer {
     margin: 3rem;
   }
   #navebar {
-    left: 51rem;
+    left: 49rem;
   }
   .formulario {
     left: 2rem; 
