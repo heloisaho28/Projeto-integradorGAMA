@@ -61,7 +61,7 @@ gerenciar alterações em equipe;
 
 ## 🔖 Layout
 
-- [Acesse aqui o projeto finalizado, online](https://)
+- [Acesse aqui o projeto finalizado, online](https://heloisaho28.github.io/Projeto-integradorGAMA/paginaPrincipal.html)
 
 ## :memo: Licença
 
