@@ -64,8 +64,8 @@ body {
 
 
   #sobrenos {
-    margin-left: 1.5rem;
-  
+    margin-left: 1.0rem;
+    max-width:100%;
     
   }
   
@@ -76,6 +76,7 @@ body {
     text-transform: uppercase;
     color: #419488;
     margin: auto 0 1.5rem;
+    display: flex;
   }
   
 
